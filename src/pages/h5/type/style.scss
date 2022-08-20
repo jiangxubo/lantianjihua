@@ -1,0 +1,33 @@
+.lantian-type{
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
+
+  .header{
+    width: 100%;
+    height: 40px;
+    // background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  .content{
+    width: 100%;
+    height: 40px;
+    // background-color: red;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    .content-p{
+      width: 20px;
+      height: 20px;
+      background-color: aquamarine;
+      margin: 0 5px;
+    }
+    .content-s{
+      font-size: 14px;
+    }
+  }
+}

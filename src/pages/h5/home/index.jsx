@@ -27,7 +27,7 @@ const Index = () => {
       <div className='gonggao'>
         <div><img src={gonggao} alt="" /></div>
         <div>公告</div>
-        <div><div className='box'><p class="animate">滚动播放消息，持续1分钟，如果连续，则及时更新最新消息。</p></div></div>
+        <div><div className='box'><p className="animate">滚动播放消息，持续1分钟，如果连续，则及时更新最新消息。</p></div></div>
       </div>
       <div className='biaoti'>
         <div></div>

@@ -8,6 +8,9 @@ const { log } = require('console');
 
 module.exports = merge(common, {
   mode: 'development',
+  output:{
+    publicPath:'/'
+  },
   devServer: {
     // client: {
     //   logging: 'none',
@@ -15,9 +18,7 @@ module.exports = merge(common, {
     // logLevel:['silent'],
     // target: "http://127.0.0.1:8080",
     // contentBase: path.join(__dirname, 'dist'),
-    // static: {
-    //   directory: path.join(__dirname, 'public'),
-    // },
+    // static:'/',
     // },
     // open: {
     //   target: ['first.html', 'http://localhost:8080/second.html'],
@@ -29,8 +30,15 @@ module.exports = merge(common, {
     port: 9900,
     compress: true,
     open: false,
+    host:'localhost',
+    // path:'/',
+    // publickPath:'/',
+    allowedHosts:'all',
+    // historyApiFallback:true
     historyApiFallback:{
-      disableDotRule:true
+      // index:'auto',
+      disableDotRule:true,
+      disableHostCheck:true,
     }
   },
   stats: "none",

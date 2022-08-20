@@ -1,15 +1,15 @@
-import React from 'react';
+import React, {Suspense}from 'react';
 import { Route, NavLink, Routes } from 'react-router-dom';
 import Home from './home'
-import Shop from './shop'
-import Type from './type'
-import My from './my'
-
-
-
+// import Shop from './shop'
+// import Type from './type'
+// import My from './my'
 import './demo2.scss';
-import { flexible } from '@/utils/zishiying';
-flexible()
+// const Home = React.lazy(()=>import('./home'))
+const Shop = React.lazy(()=>import('./shop'))
+const Type = React.lazy(()=>import('./type'))
+const My = React.lazy(()=>import('./my'))
+
 const Index = () => {
   return (
     <div className='add'>

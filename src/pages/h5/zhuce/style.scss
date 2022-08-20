@@ -1,0 +1,62 @@
+.lantian-input {
+  width: 100%;
+  height: 100vh;
+
+  input {
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #666;
+
+  }
+  .top1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    position: relative;
+    .fanhui {
+      width: 30px;
+      height: 30px;
+      // background-color: aqua;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      left: 10px;
+      top: 5px;
+    }
+  }
+  .zhuce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+    background-color: #5d9e43;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .denglu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: #666;
+    font-size: 14px;
+    // font-weight: bold;
+  }
+}
